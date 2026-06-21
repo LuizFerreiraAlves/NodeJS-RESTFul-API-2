@@ -8,5 +8,5 @@
 # Business rules
 
 - [x] Transactions must be credit, which adds value to the total amount, or debit, which subtracts value.
-- [] It should be possible to identify the user among the requests.
-- [] User should view only the transactions he/she created.
+- [x] It should be possible to identify the user among the requests.
+- [x] User should view only the transactions he/she created.

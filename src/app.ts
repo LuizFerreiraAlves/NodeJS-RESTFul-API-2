@@ -11,11 +11,6 @@ app.addHook('preHandler', async (request, response) => {
   console.log(`[${request.method}] ${request.url}`)
 })
 
-// App live
-app.get('/', () => {
-  console.log('App is live!')
-})
-
 // GET, POST, PUT, PATCH, DELETE
 app.register(transactionsRoutes, {
   prefix: 'transactions',
